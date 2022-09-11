@@ -1,0 +1,60 @@
+.login{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 100px; */
+    background: url('../../../assets/p4.jpg');
+    background-size: cover;
+}
+
+.loginTitle{
+font-size: 50px;
+font-family: 'Varela Round', sans-serif;
+font-weight: 600;
+color: darkorange;
+margin-bottom: 20px;
+}
+
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Varela Round', sans-serif;
+}
+.loginForm > label{
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.loginForm >input{
+    padding: 10px;
+    background-color: white;
+    border: none;
+}
+
+.loginForm >input:focus{
+    outline: none;
+}
+
+.loginBtn{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: darkorange;
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.registerBtn{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: aqua;
+    border: none;
+    color: black;
+    border-radius: 7px;
+    padding: 10px;
+    cursor: pointer;
+}

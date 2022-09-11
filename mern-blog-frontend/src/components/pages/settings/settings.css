@@ -1,0 +1,96 @@
+.settings{
+    display: flex;
+}
+
+.settingsWrapper{
+    flex: 9;
+    padding: 20px;
+}
+
+.settingsFileInput{
+    display: none;
+}
+
+.settingtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settingsUpdateTitle{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+    color: darkorange;
+    font-weight: 600;
+}
+
+.settingsDeleteTitle{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 12px;
+    color: red;
+    cursor: pointer;
+}
+
+.settingsDeleteIcon{
+    margin-right: 5px;
+}
+
+.settingsForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsPP{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.settingsImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.settingsPPIcon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: darkorange;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.settingsForm > label{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.settingsForm >input{
+    margin: 10px 0;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid lightsalmon;
+    width: 75%;
+}
+
+.settingsForm >input:focus{
+    outline: none;
+}
+
+.settingSumit{
+    width: 150px;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    background-color: darkorange;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
